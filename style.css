@@ -1,8 +1,17 @@
-header {
-background-image: url("C://Users/bewee/OneDrive/Documents/GitHub/Restaurant-Demo/restau.jpg");
-margin: 0;
+* {
+  box-sizing: border-box;
 }
 
+.splash {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("C://Users/bewee/OneDrive/Documents/Github/Restaurant-Demo/image3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
 .topnav {
   overflow: hidden;
@@ -15,7 +24,7 @@ margin: 0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   border-color: red;
 }
 
@@ -32,34 +41,34 @@ margin: 0;
 }
 
 .contact {
-  margin-left: 1200px;
+  margin-left: 1100px;
 }
 
 
-
-
-
 .shadowbox {
-  background-color: black;
-  position: relative;
-  opacity: 0.6;
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
   width: 300px;
   height: 100vh;
-  text-align: center;
-  margin-left: 300px;
+  margin-left: 100px;
 
 
 }
 
 .boxtext1 {
-  padding-top: 100px;
+padding-top: 100px;
 position: relative;
 text-align: center;
 color: white;
+font-size: 25px;
 }
 
 .boxtext2 {
-  font-style: italic;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
 }
 
 hr {
