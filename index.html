@@ -13,20 +13,26 @@
   <header>
 
   <div class="dropdown">
-    <button class="menubtn">Menu</button>
+    <button class="menubtn">MENU</button>
     <div class="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
     </div>
   </div>
+
   <div class="reservations">
-    <button class="resbtn">Reservations</button>
+    <div class="dropdown">
+    <button class="resbtn">Reservations</button></div>
+    <div class="dropdown">
     <button class="specbtn">Specials</button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
+      <a href="#">Link 1</a></div>
   </div>
 </div>
+</header>
+<body>
+
 <div class="splash">
 <div class="shadowbox">
 <div class="boxtext1"><h2>Kisico's</h2><br><h3>Fine Italian Dining</h3><hr></div>
@@ -34,36 +40,25 @@
 <div class="boxtext2" style="font-weight: bold">(800) 14x-1444
 
 </div>
-</div></div>
-<div class="banner">
-  <div class="banner-header">
-    <button class="btn-banner"><span></span></button>
-  </div>
-  <div class="banner-body">
-      <a href="" style="display: black;">
-        <img src="C://Users/bewee/OneDrive/Documents/GitHub/Restaurant-Demo/restau.jpg" width=100%>
-      </a>
-    </div>
-  </div>
+</div>
+
   <div class="popup">
           <button id="close">&times;</button>
-          <h3>Get Updates on Kisico's Specials and Events</h2>
+          <h3 style="font-style: italic">Get Updates on Kisico's Specials and Events</h2>
           <p>
               Receive regular updates on menu changes, guest chefs, and special offers.
           </p><br>
     <form action="/action_page.php">
-    <label for="email">Enter your email:</label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email" placeholder="Enter your email address">
     <input type="submit">
   </form><br>
       <hr><br><br>
 
-      <h3> Stay Connected </h3>
+      <h3 style="font-style: italic"> Stay Connected </h3>
       </div>
-</header>
-  <footer>
-  <p>Here are some current dishes</p>
 
-  </footer>
+
+</body>
+
   <script src="index.js"></script>
   </html>

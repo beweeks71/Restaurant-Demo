@@ -1,9 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-header {
-  overflow: hidden;
-}
+
 .splash {
   position: relative;
   width: 100vw;
@@ -15,6 +10,7 @@ header {
   background-repeat: no-repeat;
 }
 
+
 .menubtn {
   background-color: white;
   color: black;
@@ -23,10 +19,9 @@ header {
   padding-right: 40px;
   padding-bottom: 30px;
   font-size: 18px;
-  border-width: 2px;
+  border-width: 0.1px;
+  border-color: grey;
   cursor: pointer;
-  display: inline-block;
-
 
 }
 
@@ -38,7 +33,8 @@ header {
   padding-right: 40px;
   padding-bottom: 30px;
   font-size: 18px;
-  border-width: 2px;
+  border-width: 1px;
+  border-color: grey;
   cursor: pointer;
   display: inline-block;
 
@@ -55,12 +51,15 @@ header {
   padding-right: 40px;
   padding-bottom: 30px;
   font-size: 18px;
-  border-width: 2px;
+  border-width: 1px;
+  border-color: grey;
   cursor: pointer;
   display: inline-block;
+  margin-left: -10px;
 
 
 }
+
 
 .dropdown {
   position: relative;
@@ -70,7 +69,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #orange;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -83,16 +82,15 @@ header {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: red;}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+.dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
+.dropdown:hover .menubtn {background-color: grey;}
 
+.dropdown:hover .resbtn {background-color: grey;}
+
+.dropdown:hover .specbtn {background-color: grey;}
 
 
 .reservations {
@@ -156,21 +154,29 @@ hr {
     transform: translate(-50%,-50%);
     left: 85%;
     top: 50%;
-    border-radius: 8px;
+    border: 10px;
     font-family: "Poppins",sans-serif;
     display: none;
     text-align: center;
 }
+
+
+
 .popup button{
     display: block;
     margin:  0 0 20px auto;
     background-color: transparent;
     font-size: 30px;
-    color: #c5c5c5;
+    color: #ffffff;
+    background: grey;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
     border: none;
     outline: none;
     cursor: pointer;
 }
+
 .popup p{
     font-size: 14px;
     text-align: center;
@@ -188,3 +194,25 @@ a{
     text-decoration: none;
     padding: 5px 0;
 }
+input[type=email] {
+    padding: 14px 10px 9px 10px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 0;
+    display: inline-block;
+}
+
+input[type=email]:focus {
+    border-color:#333;
+}
+input[type=submit] {
+    padding:10px 20px;
+    margin-left: -5px;
+    background:darkgreen;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 0px;
+    color: white;
+    font-size: 20px
+    }
