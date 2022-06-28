@@ -14,9 +14,9 @@
   height: 155px;
   width: 155px;
   padding-bottom: 0px;
-  margin-bottom: -30px;
+  margin-bottom: -72px;
   padding-top: 30px;
-  margin-left: 520px;
+  margin-left: 500px;
   display: inline-block
   position: relative;
 }
@@ -29,10 +29,10 @@
 .menubtn {
   background-color: white;
   color: black;
-  padding-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 30px;
+  padding-top: 65px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 65px;
   font-size: 18px;
   border-width: 0.1px;
   border-color: grey;
@@ -44,12 +44,12 @@
 .resbtn {
   background-color: white;
   color: black;
-  padding-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 30px;
+  padding-top: 65px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 65px;
   font-size: 18px;
-  margin-left: 365px;
+  margin-left: 285px;
   border-width: 1px;
   border-color: grey;
   cursor: pointer;
@@ -63,10 +63,10 @@
 .specbtn {
   background-color: white;
   color: black;
-  padding-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 30px;
+  padding-top: 65px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 65px;
   font-size: 18px;
   border-width: 1px;
   border-color: grey;
