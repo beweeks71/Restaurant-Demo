@@ -10,7 +10,22 @@
   background-repeat: no-repeat;
 }
 
+.kisico {
+  height: 155px;
+  width: 155px;
+  padding-bottom: 0px;
+  margin-bottom: -30px;
+  padding-top: 30px;
+  margin-left: 520px;
+  display: inline-block
+  position: relative;
+}
 
+.shadowimage {
+  margin-top: 50px;
+ height: 300px;
+
+}
 .menubtn {
   background-color: white;
   color: black;
@@ -23,6 +38,7 @@
   border-color: grey;
   cursor: pointer;
 
+
 }
 
 .resbtn {
@@ -33,11 +49,12 @@
   padding-right: 40px;
   padding-bottom: 30px;
   font-size: 18px;
+  margin-left: 365px;
   border-width: 1px;
   border-color: grey;
   cursor: pointer;
+  position: relative;
   display: inline-block;
-
 
 }
 
@@ -54,6 +71,7 @@
   border-width: 1px;
   border-color: grey;
   cursor: pointer;
+  position: relative;
   display: inline-block;
   margin-left: -10px;
 
@@ -129,7 +147,7 @@ font-size: 25px;
 
 hr {
   width: 200px;
-  display: inline-block;
+  margin-left: 40px;
 }
 
 .res {
