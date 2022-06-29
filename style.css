@@ -8,6 +8,7 @@
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+
 }
 
 .kisico {
@@ -39,6 +40,7 @@
   border-color: grey;
   cursor: pointer;
   transition: background-color 1.5s;
+  margin-bottom: 2px;
 
 }
 
@@ -106,15 +108,15 @@
   border-radius: 5px;
 }
 
-.dropdown-content a:hover {background-color: green;}
+.dropdown-content a:hover {background-color: lightblue;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .menubtn {background-color: lightgrey;}
+.dropdown:hover .menubtn {background-color: lightblue;}
 
-.dropdown:hover .resbtn {background-color: lightgrey;}
+.dropdown:hover .resbtn {background-color: lightblue;}
 
-.dropdown:hover .specbtn {background-color: lightgrey;}
+.dropdown:hover .specbtn {background-color: lightblue;}
 
 
 .reservations {
