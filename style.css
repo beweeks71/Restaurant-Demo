@@ -34,10 +34,11 @@
   padding-right: 60px;
   padding-bottom: 65px;
   font-size: 18px;
-  border-width: 0.1px;
+  border-width: 4px;
+  border-style: double;
   border-color: grey;
   cursor: pointer;
-
+  transition: background-color 1.5s;
 
 }
 
@@ -49,13 +50,14 @@
   padding-right: 50px;
   padding-bottom: 65px;
   font-size: 18px;
-  margin-left: 285px;
-  border-width: 1px;
+  margin-left: 269px;
+  border-width: 4px;
+  border-style: double;
   border-color: grey;
   cursor: pointer;
   position: relative;
   display: inline-block;
-
+  transition: background-color 1.5s;
 }
 
 
@@ -68,13 +70,14 @@
   padding-right: 60px;
   padding-bottom: 65px;
   font-size: 18px;
-  border-width: 1px;
+  border-width: 4px;
   border-color: grey;
+  border-style: double;
   cursor: pointer;
   position: relative;
   display: inline-block;
   margin-left: -10px;
-
+  transition: background-color 1.5s;
 
 }
 
@@ -107,11 +110,11 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .menubtn {background-color: grey;}
+.dropdown:hover .menubtn {background-color: lightgrey;}
 
-.dropdown:hover .resbtn {background-color: grey;}
+.dropdown:hover .resbtn {background-color: lightgrey;}
 
-.dropdown:hover .specbtn {background-color: grey;}
+.dropdown:hover .specbtn {background-color: lightgrey;}
 
 
 .reservations {
