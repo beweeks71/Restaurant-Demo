@@ -1,4 +1,7 @@
+header {
+height: 200px;
 
+}
 .splash {
   position: relative;
   width: 100vw;
@@ -245,5 +248,5 @@ input[type=submit] {
 
   .bodypage {
 
-background-color: black; 
+background-color: black;
   }
