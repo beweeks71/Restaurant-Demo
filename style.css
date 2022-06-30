@@ -250,3 +250,40 @@ input[type=submit] {
 
 background-color: black;
   }
+
+.reserve {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  border-style:ridge;
+  border-width: 10px;
+
+}
+
+.reservetext {
+  font-size: 25px;
+  font-style: italic;
+  font-family: Garamond, serif;
+  color: goldenrod;
+  background-color: white;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 160px;
+  text-align: center;
+
+
+
+}
+
+.cardimage {
+  height: 130px;
+  width: 200px;
+  padding-top: 10px;
+  display: inline-block;
+  margin-left: 210px;
+
+
+}
