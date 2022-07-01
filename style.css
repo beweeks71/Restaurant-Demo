@@ -1,7 +1,4 @@
-header {
-height: 200px;
 
-}
 .splash {
   position: relative;
   width: 100vw;
@@ -26,7 +23,7 @@ height: 200px;
 }
 
 .shadowimage {
-  margin-top: 50px;
+  margin-top: 20px;
  height: 300px;
 
 }
@@ -182,9 +179,9 @@ hr {
     position: absolute;
     transform: translate(-50%,-50%);
     left: 85%;
-    top: 50%;
+    top: 35%;
     border: 10px;
-    font-family: "Poppins",sans-serif;
+    font-family: Garamond,sans-serif;
     display: none;
     text-align: center;
 }
@@ -237,12 +234,13 @@ input[type=email]:focus {
 input[type=submit] {
     padding:10px 20px;
     margin-left: -5px;
-    background:darkgreen;
+    background:lightgreen;
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 0px;
     color: white;
+    font-family: Helvetica, sans-serif;
     font-size: 20px
     }
 
@@ -286,4 +284,20 @@ background-color: black;
   margin-left: 210px;
 
 
+}
+
+.fa-instagram {
+  height: 40px;
+  width: 100px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.fa-twitter {
+  height: 40px;
+  width: 100px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: lightblue;
 }
