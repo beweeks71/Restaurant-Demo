@@ -41,6 +41,7 @@
   cursor: pointer;
   transition: background-color 1.5s;
   margin-bottom: 2px;
+  margin-left: 2px;
 
 }
 
@@ -52,7 +53,7 @@
   padding-right: 50px;
   padding-bottom: 65px;
   font-size: 18px;
-  margin-left: 269px;
+  margin-left: 273px;
   border-width: 4px;
   border-style: double;
   border-color: grey;
@@ -253,6 +254,7 @@ background-color: black;
   height: 400px;
   width: 600px;
   background-color: white;
+  margin-top: 200px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -269,7 +271,7 @@ background-color: black;
   background-color: white;
   position: absolute;
   margin-top: 150px;
-  margin-left: 160px;
+  margin-left: 150px;
   text-align: center;
 
 
